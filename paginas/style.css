@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    background-image: url('../avatar/faisca\ \(1\).gif');
+    position:relative
+}
+
+nav{ 
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(253, 135, 0);
+    font-family: 'Londrina Solid', cursive;
+    padding: 5px;
+    
+}
+nav>a{
+    text-shadow: 1px 1px 1px black;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 1.2em;
+}
+header{
+    color: white;
+    width: 100%;
+    height: 95vh;
+   
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.boxImg{
+    font-family: 'Slackey', cursive;
+    text-align: center;
+    padding-right: 10px;
+    animation: zoomInRight;
+    animation-duration: 0.5s;
+    animation-iteration-count: i;
+    
+}
+.boxImg>img{ 
+    display: flex;
+    justify-content: start;
+    max-height: 380px;
+    filter: drop-shadow(0px 0px 5px rgb(255, 115, 0));
+}
+
+.boxText{
+    font-family: 'Slackey', cursive;
+    text-align: center;
+}
+/*---------*/
+.boxName>img{
+
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+}
+.boxName>h1{
+    transition: 2s;
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    text-shadow: 1px 1px 5px rgb(255, 115, 0);
+    font-size: 4em;
+}
+.boxName>a{
+    margin-top: 5px;
+    color: aliceblue;
+    animation: fadeIn;
+    animation-duration:5s;
+}
+.boxName>p{
+    font-size: 1.1em;
+    animation: fadeIn;
+    animation-duration:5s;
+}
+.boxText>h3{
+    animation: fadeIn;
+    animation-duration: 2s;
+    padding-top: 30px;
+    color: rgb(255, 115, 0);
+    font-size: 1.7em;
+    text-shadow: 1px 1px 5px rgb(82, 44, 0) ;
+
+}
+.posHeader{
+    background-color: rgba(253, 135, 0, 0);
+    height: 10px;
+}
+main{
+    background-color: black;
+    background-image: url('../avatar/faisca.gif');
+    position: relative;
+}
+/*main*/
+
+.info{
+    padding: 10px;
+    position: sticky;
+    top:0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:white ;
+}
+section{
+     padding: 30px;
+}
+.Sobre{
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.SobreH1{
+    text-shadow: 1px 1px 3px black;
+    background-image:linear-gradient(to right, rgb(253, 135, 0),transparent);
+    padding-left: 5px;
+    font-family: 'Slackey', cursive;
+    color: white;
+    display: none;
+    border-radius: 10px;
+}
+.SobreH2{
+    text-shadow: 1px 1px 3px black;
+    padding-left: 5px;
+    font-family: 'Slackey', cursive;
+    color: white;
+    display: none;
+}
+.imgInfo{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgInfo1{
+    display: none;
+    animation: zoomInUp;
+    animation-duration: 1s;
+    padding-top: 15px;
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+    height:250px;
+}
+.cardio{
+    display: none;
+}
+.textInfo{
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.textInfop{
+    padding: 2px 10px 2px 10px;
+    box-shadow: 0px 0px 10px rgb(255, 115, 0);
+    line-height: 27px;
+    font-family: 'Londrina Solid', cursive;
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+    transition: 3s;
+    font-size: 1.2em;
+}
+
+/*=========Skills============*/
+
+.Skillss{
+    background-color: rgba(0, 0, 0, 0.493);
+
+}
+.bigBoxSkill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.boxSkill1{
+    min-height: 400px;
+    height: 500px;
+    min-width: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    display: none;
+    border: 1px solid transparent;
+    color: white;
+    text-align: center;
+}
+.skills>p{
+    text-shadow: 0px 0px 10px rgb(255, 115, 0) ;
+
+}
+.Icons{
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+
+}
+.Icons:hover{
+    filter: drop-shadow(0px 0px 10px rgb(255, 60, 0));
+    width: 110px;
+    height: 110px;
+    transition: 0.5s;
+}
+.boxSkill2{
+    padding-top: 10px;
+    height: 500px;
+    min-width: 320px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skillText{
+    height: 490px;
+    width: 450px;
+}
+
+.ReSkillBox{
+    display: flex;
+    justify-content: center;
+}
+.ReSkill1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 185px; 
+    width: 160px;
+}
+.ReSkill2{
+    margin:auto;
+    height: 225px; 
+    min-width: 300px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+    color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.TitleSelect{
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    display: none;
+    
+}
+.TextSelect{
+    font-family: 'Londrina Solid', cursive;
+    line-height: 30px;
+    display: none;
+}
+.IconSelect{
+    display: none;
+}
+
+
+/*=======projects=========*/
+.projects{
+    background: black;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.imgProjects{
+    height: 23vh;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.flexProject{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.boxProject{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 350px;
+    min-width: 320px;
+   
+}
+.boxProject2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 700px;
+    min-width: 320px;
+    
+}
+
+/*==============projetosIfo==============*/
+
+.projectInfo1{
+    padding-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+    display: none; 
+    padding-left: 60px;
+}
+.projectInfoImg{
+   
+}
+.projectInfo2{
+    padding-top: 50px;
+    line-height: 29px;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    filter: drop-shadow(0px 0px 2px rgb(255, 115, 0));
+}
+
+/*======footer=======*/
+footer{
+    background-color:#ff7300;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+footer>p{
+    padding-bottom:20px ;
+    text-shadow:1px 1px 3px black; 
+
+}
+div>a{
+    color: white;
+    text-shadow:1px 1px 3px black; 
+    margin: 2px;
+
+}
+
+/*========background==========*/
+
+#Card1{
+    background-image: url('../imagens/projectForm.png');
+    background-size: cover;
+}
+#Card2{
+    background-size: cover;
+}

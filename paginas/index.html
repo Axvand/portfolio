@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../paginas/cardscss/cards.css">
+    <title>PortFolio</title>
+</head>
+<body>
+    <nav class="nav">
+        <a href="">Home</a>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Skillss">Skills</a>
+        <a href="#Projects">Projetos</a>
+    </nav>
+    <br>
+    <br>
+    <header> 
+     <div class="boxText">
+        <h3>Front-End Developer</h3>
+
+        <div class="boxName">
+            
+            <h1 style="color: rgb(255, 255, 255);">Alex Rocha</h1><br>
+            <p>Obrigado pela visita. Fique a vontade!</p>
+
+            <a href="https://wa.me/5561996081625" target="_blank"><i style="font-size: 25px;" class="fa fa-whatsapp"></i></a> 
+            <a  target="_blank" href="https://www.linkedin.com/in/alex-rocha-b51b8a281"><i style="font-size:25px;" class='fa fa-linkedin'></i></a> 
+            <a href="https://github.com/Axvand"  target="_blank"><i style="font-size:25px;" class='fa fa-github'></i></a>
+        </div>
+        
+     </div>
+        <div class="boxImg">
+            <img src="../avatar/Avatar1.png" alt=""> 
+            <h2 style="color: rgb(255, 255, 255);">Hello World! </h2>
+        </div>
+    
+    </header>
+
+
+    </div>
+
+    <main>
+<section class="Sobre" id="Sobre">
+            <h1 class="SobreH1">Sobre Mim:</h1>
+        <div class="info">
+            <div class="imgInfo"> <img class="imgInfo1" src="../avatar/Avatar2.png" ><br><img  class="cardio" height="80px" src="../avatar/Fire.gif" ></div>
+            <div class="textInfo"><p class="textInfop"></p></div>
+</section>
+    
+    
+    <div class="posHeader"></div> <!--linha-->
+
+<section class="Skillss" id="Skillss"> 
+    <h1 class="SobreH1">Selecione uma Skill:</h1>
+    <div class="bigBoxSkill">
+        
+        <div class="boxSkill1">
+            <div class="skills" onmouseenter="Html()"><img class="Icons" height="95px" width="95px" src= "../icons/HTML5.png" ></div>
+            <div class="skills" onmouseenter="Css()" ><img class="Icons" height="95px" width="95px" src= "../icons/Css3.png" ></div>
+            <div class="skills" onmouseenter="Bootstrap()"><img class="Icons" height="93px" width="93px" src= "../icons/bootstrap.png" ></div>
+            <div class="skills" onmouseenter="JS()"><img class="Icons" height="95px" width="95px" src= "../icons/js.png" ></div>
+            <div class="skills" onmouseenter="Node()"><img class="Icons" height="95px" width="95px" src= "../icons/node-js.png" ></div>
+            <div class="skills" onmouseenter="React()"><img class="Icons" height="95px" width="95px" src= "../icons/react-js-160.png" ></div>
+            <div class="skills" onmouseenter="Git()"><img class="Icons" height="95px" width="95px" src= "../icons/git.png" ></div>
+            <div class="skills" onmouseenter="Github()"><img class="Icons" height="95px" width="95px" src= "../icons/github.png" ></div>
+            <div class="skills" onmouseenter="Resp()"><img class="Icons" height="105px" width="105px" src= "../icons/responsive-design.png" ></div> 
+        </div>
+
+        <div class="boxSkill2">
+                <div class="ReSkillBox">
+                    <div class="ReSkill1" ><img class="IconSelect" height="120px" width="120px" src= "../avatar/fire-38.gif" ><br><h3 class="TitleSelect"><<< skills >>></h3></div>
+                </div>
+                <div class="ReSkill2">
+                    <p class="TextSelect">
+                        Em relação as skills mostradas, estão sendo constantemente aprimoradas apesar de já está bem a vontade em as utilizá-las. <br> Neste momento estou estudando e me familiarizando com React Js <br>
+                        ...E sempre aprimorando minha logica de programação no Javascript, tanto nas aulas, palestras e artigos, como em projetos pessoais.
+                    </p>
+                </div>
+        </div>
+        
+    </div>
+</section>
+<section class="projects" id="Projects">
+    <h1 class="SobreH1">Projetos:</h1>
+    <br>
+
+
+    <div class="flexProject">
+
+        <div class="boxProject">
+            <div class="projectInfo1"><img class="ProjectInfoImg" src="../avatar/Avatar3.png" height='150px'=""></div>
+            <div class="projectInfo2"><p>
+                Aqui estão alguns projetos para que possam conferir um pouco mais do meu trabalho. Todas as skills utilizadas nos projetos estão, repito, sendo constantemente aprimoradas. <br> Confiram!<br> 
+            </p></div>
+        </div>
+        <div class="boxProject2">
+
+            <div class="projectsCard" onmouseout="ProjOut1()">
+                <div class="project-front">
+                    <h2 class="textProject">Projeto 1</h2>
+                </div>
+
+                <a href="https://axvand.github.io/Formulario-de-LogIn/formul%C3%A1rio.html" onmouseenter="ProjEnter1()"  target="_blank" class="project-Back" id="Card1">
+                    <h2 class="textProject">Formulário(login)</h2>
+                </a>
+            </div>
+<!--=====================================-->
+            <div class="projectsCard" onmouseenter="ProjEnter2()">
+                <div class="project-front">
+                    <h2 class="textProject">Projeto</h2>
+                </div>
+
+                <div id="Card2" class="project-Back"  onmouseout="ProjOut2()">
+                    <img src="../imagens/loading.gif" height="80px">
+                    <h2 class="textProject" >a caminho</h2>
+                </div>
+            </div>
+<!--=============================-->
+            <div class="projectsCard" onmouseenter="ProjEnter2()" onmouseout="ProjOut2()">
+                <div class="project-front">
+                    <h2 class="textProject">Projeto</h2>
+                </div>
+
+                <div class="project-Back">
+                    <img src="../imagens/loading.gif" height="80px">
+                    <h2 class="textProject" >A caminho</h2>
+                </div>
+            </div>
+<!--=============================-->
+        <div class="projectsCard" onmouseenter="ProjEnter2()">
+                <div class="project-front">
+                    <h2 class="textProject">Projeto</h2>
+                </div>
+
+                <div class="project-Back" onmouseout="ProjOut2()">
+                    <img src="../imagens/loading.gif" height="80px">
+                    <h2 class="textProject" >A caminho</h2>
+                </div>
+            </div>
+
+        </div>     
+    </div>
+</section>
+
+
+</main>
+<footer>
+    <p>Desenvolvido por Alex Rocha</p>
+    <div>
+    <a href="https://wa.me/5561996081625" target="_blank"><i style="font-size: 25px;" class="fa fa-whatsapp"></i></a> 
+    <a  target="_blank" href="https://www.linkedin.com/in/alex-rocha-b51b8a281"><i style="font-size:25px;" class='fa fa-linkedin'></i></a> 
+    <a href="https://github.com/Axvand"  target="_blank"><i style="font-size:25px;" class='fa fa-github'></i></a>
+    </div>
+
+</footer>
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
