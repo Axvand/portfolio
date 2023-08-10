@@ -6,7 +6,9 @@
 }
 body{
     background-image: url('../avatar/faisca\ \(1\).gif');
-    position:relative
+    position:relative;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 nav{ 
@@ -112,7 +114,7 @@ main{
     color:white ;
 }
 section{
-     padding: 30px;
+     padding: 25px;
 }
 .Sobre{
     min-height: 400px;
@@ -357,6 +359,7 @@ footer{
     align-items: center;
     flex-direction: column;
     color: white;
+    width:100.6%;
 }
 footer>p{
     padding-bottom:20px ;
