@@ -172,24 +172,48 @@ function Html(){
 
  //mousemove===============
 
- const textProject1 = 'Formulário para cadastro com regras devidamente definidas para cada campo e tipo de dados preenchidos pelo usuário.'
+ const textProject1 = 'Projeto: Formulário para cadastro. Com regras devidamente definidas para cada campo e tipo de dados preenchidos pelo usuário.'
+const textProject2 = 'Projeto: Cardápio digital. Construido de forma autonoma, é um cardápio para pizzarias com carrinho, campo de observações e campo de endereço! Tudo com encaminhamento automatico para o whatsapp da empresa ao finalizar o pedido. Um dos modelos de projetos disponiveis para venda. (Design responsivo)'
  const textOut = ' Aqui estão alguns projetos para que possam conferir um pouco mais do meu trabalho. Todas as skills utilizadas nos projetos estão, repito, sendo constantemente aprimoradas. <br> Confiram!<br>'
  const textSorry  = 'Infelizmente, o projeto requisitado ainda não esta disponível. Mas logo estará pronto.<br> Obrigado!'
 
  const projectInfoImg = document.querySelector('.ProjectInfoImg')
+
+
  function ProjEnter1(){
     setAtributo("src","../avatar/Avatar1.png",projectInfoImg)
-    setText(projectInfo2,textProject1)
+    setText(projectInfo2, textProject1)
  }
  function ProjOut1(){
     setAtributo("src","../avatar/Avatar3.png",projectInfoImg)
     setText(projectInfo2, textOut)
  }
+//=====================================
+
+
  function ProjEnter2(){
+    setAtributo('src',"../avatar/Avatar1.png",projectInfoImg)
+    setText(projectInfo2, textProject2)
+ }
+ function ProjOut2(){
+    setAtributo('src',"../avatar/Avatar3.png",projectInfoImg)
+    setText(projectInfo2, textOut)
+ }
+ //======================================
+ function ProjEnter3(){
     setAtributo('src',"../avatar/Avatar4.png",projectInfoImg)
     setText(projectInfo2, textSorry)
  }
- function ProjOut2(){
+ function ProjOut3(){
+    setAtributo('src',"../avatar/Avatar3.png",projectInfoImg)
+    setText(projectInfo2, textOut)
+ }
+ //=========================================================
+ function ProjEnter4(){
+    setAtributo('src',"../avatar/Avatar4.png",projectInfoImg)
+    setText(projectInfo2, textSorry)
+ }
+ function ProjOut4(){
     setAtributo('src',"../avatar/Avatar3.png",projectInfoImg)
     setText(projectInfo2, textOut)
  }

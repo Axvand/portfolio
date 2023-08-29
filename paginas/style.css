@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0px;
 }
 body{
-    background-image: url('../avatar/faisca\ \(1\).gif');
+    background : black;
     position:relative;
     width: 100%;
     overflow-x: hidden;
@@ -19,6 +21,7 @@ nav{
     background-color: rgb(253, 135, 0);
     font-family: 'Londrina Solid', cursive;
     padding: 5px;
+    z-index: 1;
     
 }
 nav>a{
@@ -99,7 +102,6 @@ header{
 }
 main{
     background-color: black;
-    background-image: url('../avatar/faisca.gif');
     position: relative;
 }
 /*main*/
@@ -381,4 +383,15 @@ div>a{
 }
 #Card2{
     background-size: cover;
+    background-image: url('../imagens/Anotação\ 2023-08-29\ 083524.png');
+}
+#Card3{
+    background-image: url('../imagens/loading.gif');
+    background-size: cover;
+    
+}
+#Card4{
+    background-image: url('../imagens/loading.gif');
+    background-size: cover;
+
 }
