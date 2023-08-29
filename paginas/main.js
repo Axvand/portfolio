@@ -120,7 +120,7 @@ function Html(){
  
  //===============JS=================
  
- const textJS = "Conhecimento na linguagem Javascript. Apesar disso, estou em constante treinamento e apredizado. Tanto em relação a logica de programação, quanto em aprimorar boas praticas, escalabilidade do código, consumo de API’ tus Rest, tratamento de dados JSON, manipulação do DOM e etc.";
+ const textJS = "Linguagem Javascript. Estou em constante treinamento e apredizado. Tanto em relação a logica de programação, quanto em aprimorar boas praticas, escalabilidade do código, consumo de API’ tus Rest, tratamento de dados JSON, manipulação do DOM e etc.";
  const infoJS = new Info(Icon[3],'JavaScript',textJS);
 
  function JS(){ 
@@ -154,7 +154,7 @@ function Html(){
  };
  //==============Github==============
  const textGithub= "Conhecimentos para utilização e armazenamento de repositórios no GitHub."
- const infoGithub = new Info(Icon[7],'Git',textGithub)
+ const infoGithub = new Info(Icon[7],'GitHub',textGithub)
 
  function Github(){ 
     info(infoGithub)
@@ -162,7 +162,7 @@ function Html(){
  };
  //===========Responsividade============
  const textResp= "Conhecimentos para fabricar designs de páginas web responsivas para diversos tipos de dispositivos."
- const infoResp = new Info(Icon[8],'GitHub',textResp)
+ const infoResp = new Info(Icon[8],'Design Responsivo',textResp)
 
  function Resp(){ 
     info(infoResp)
